@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="styles1.css" /> -->
+  </head>
+  <body>
+  <div class="body1">
+    <div class="main1">
+      <div class="container">
+       <div class="typing-box">
+        <div class="typing-text">
+          <p><h2>Introducing Our New Waste Reporting Website: A Step Towards a Cleaner Campus</h2></p>
+          <p>In today's world, sustainability and waste management are more critical than ever. As our campus grows, so does the need for effective waste management solutions. To tackle this challenge, we're excited to introduce our brand-new Waste Reporting Website, a platform designed to empower our campus community to take action and contribute to a cleaner, greener environment.</p>
+          <p><h3>Why a Waste Reporting Website?</h3></p>
+          <p>Waste management on a college campus can be a daunting task,especially with a large and diverse community.Our Waste Reporting Website aims to address this by making it easy for everyone students, staff, and faculty to report waste issues in real-time.</p>
+        </div>
+       </div>
+      </div>
+      <nav>
+        <h1 class="headline">Report Solid Waste</h1>
+        <a class="a" href="A">Home</a>
+        <a class="b" href="b">History</a>
+        <a class="c" href="c">Awareness</a>
+      </nav>
+      <div class="content">
+        <form action="">
+          <div>
+            <br />
+            <br />
+            <label for="student id">Student Id</label>
+            <br />
+            <input
+              type="text"
+              name="StudentId"
+              id="student id"
+              required
+              placeholder="Enter Username"
+              minlength="6"
+              maxlength="6"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="image">Upload Image</label>
+            <br />
+            <input type="file" name="Image" id="image" required />
+          </div>
+          <br />
+          <div>
+            <label for="type">Enter Type of Waste</label>
+            <br />
+            <select id="type" required>
+              <option value="">Select Option</option>
+              <option value="OrganicWaste">Organic Waste</option>
+              <option value="InorganicWaste">Inorganic Waste</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="text">Describe in Brief</label>
+            <br />
+            <textarea
+              id="text"
+              name="description"
+              placeholder="Type here description in details"
+            ></textarea>
+          </div>
+          <br />
+          <div>
+            <button>Submit</button>
+          </div>
+        </form>
+    </div>
+  </div>
+  </body>
+</html>
