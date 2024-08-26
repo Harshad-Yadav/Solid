@@ -57,7 +57,9 @@ body.body {
     font-size: 1.2em;
   }
 }
-
+@media (max-width){
+  .container{Flex wrap:wrap}
+}
 /* Large Screens (Unchanged) */
 @media (min-width: 1200px) {
   .main {
